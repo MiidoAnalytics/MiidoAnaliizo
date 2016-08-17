@@ -1,0 +1,92 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical">
+
+    <include
+        android:id="@+id/poll_info_toolbar"
+        layout="@layout/tool_bar_new" />
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginLeft="5dp"
+        android:layout_marginRight="5dp"
+        android:layout_marginTop="10dp"
+        android:elevation="4dp"
+        android:orientation="vertical">
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:drawableLeft="@drawable/ic_family_group"
+            android:text="Información del grupo Familiar"
+            android:textAppearance="?android:attr/textAppearanceMedium"
+            android:textColor="@android:color/tertiary_text_light" />
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="vertical"
+            android:layout_marginLeft="5dp">
+
+            <TextView
+                android:id="@+id/area"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="Area: "
+                android:textColor="@android:color/tertiary_text_light" />
+
+
+            <TextView
+                android:id="@+id/population"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="Población: "
+                android:textColor="@android:color/tertiary_text_light" />
+
+            <TextView
+                android:id="@+id/groupName"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="Apellido del núcleo familiar: "
+                android:textColor="@android:color/tertiary_text_light" />
+
+            <TextView
+                android:id="@+id/address"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="Dirección: "
+                android:textColor="@android:color/tertiary_text_light" />
+
+            <TextView
+                android:id="@+id/phoneNumber"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="Teléfono: "
+                android:textColor="@android:color/tertiary_text_light" />
+
+            <TextView
+                android:id="@+id/groupsNumber"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="¿Cuantos grupos familiares comparten esta vivieneda?: "
+                android:textColor="@android:color/tertiary_text_light" />
+        </LinearLayout>
+
+    </LinearLayout>
+
+    <ListView
+        android:id="@+id/personList"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:layout_marginLeft="5dp"
+        android:layout_marginRight="5dp"
+        android:layout_marginTop="15dp"
+        android:paddingBottom="5dp"
+        android:elevation="5dp">
+
+    </ListView>
+
+</LinearLayout>

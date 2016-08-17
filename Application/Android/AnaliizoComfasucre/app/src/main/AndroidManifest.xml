@@ -1,0 +1,57 @@
+<?xml version="1.0" encoding="utf-8"?>
+<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+    package="com.miido.miido" >
+
+    <uses-sdk android:minSdkVersion="14" />
+
+    <uses-permission android:name="android.permission.WRITE_EXTERNAL_STORAGE" />
+    <uses-permission android:name="android.permission.READ_PHONE_STATE" />
+    <uses-permission android:name="android.permission.READ_EXTERNAL_STORAGE" />
+    <uses-permission android:name="android.permission.INTERNET" />
+    <uses-permission android:name="android.permission.ACCESS_FINE_LOCATION" />
+    <uses-permission android:name="android.permission.ACCESS_LOCATION_EXTRA_COMMANDS" />
+    <uses-permission android:name="android.permission.ACCESS_WIFI_STATE" />
+
+    <application
+        android:allowBackup="true"
+        android:icon="@drawable/ic_launcher"
+        android:label="@string/app_name"
+        android:theme="@style/MyAppTheme" >
+        <activity
+            android:name=".main"
+            android:configChanges="orientation|keyboardHidden|screenSize"
+            android:label="@string/app_name" />
+        <activity
+            android:name=".login"
+            android:configChanges="orientation|keyboardHidden|screenSize"
+            android:label="@string/app_name" >
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+                <category android:name="android.intent.category.LAUNCHER" />
+            </intent-filter>
+        </activity>
+        <activity
+            android:name=".main_menu"
+            android:label="@string/title_activity_main_menu" />
+        <activity
+            android:name=".master"
+            android:label="@string/title_activity_master" >
+        </activity>
+        <activity
+            android:name=".settings"
+            android:label="@string/title_activity_settings" />
+        <activity
+            android:name=".find_search"
+            android:label="@string/title_activity_find_search" >
+        </activity>
+        <activity
+            android:name=".synchronizer"
+            android:label="@string/title_activity_synchronizer" >
+        </activity>
+        <activity
+            android:name=".statistics"
+            android:label="@string/title_activity_statistics" >
+        </activity>
+    </application>
+
+</manifest>

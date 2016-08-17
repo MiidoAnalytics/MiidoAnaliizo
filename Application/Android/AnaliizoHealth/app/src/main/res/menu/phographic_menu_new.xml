@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    tools:context=".ResourcesActivity">
+
+    <item
+        android:id="@+id/actionGallery"
+        android:orderInCategory="200"
+        android:title="User"
+        android:icon="@drawable/ic_action_editor_insert_photo"
+        android:visible="false"
+        app:showAsAction="always"/>
+
+</menu>

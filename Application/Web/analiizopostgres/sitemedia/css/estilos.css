@@ -1,0 +1,165 @@
+body {
+	font-family: 'Noto Sans', sans-serif;
+}
+
+#contenedor #principal {
+	width: 290px;
+	height: 640px;
+	float: left;
+	padding: 30px;
+}
+
+#contenedor h1 {
+	background-color: #e5e5e5;
+	display: block;
+	color: #0aad12;
+	border-bottom: solid 10px #0aad12;
+	padding: 20px;
+	width: 200px;
+	font-size: 25pt;
+	float: left;
+}
+
+#contenedor h1 span {
+	font-weight: lighter;
+	font-style: italic;
+	display: block;
+	width: 100px;
+}
+
+#contenedor h2 {
+	color: #6a6a6a;
+	border-bottom: 1px solid #0aad12;
+	padding-bottom: 10px;
+	margin-bottom: 20px;
+	font-size: 15pt;
+	float: left;
+}
+
+#contenedor h3 {
+	color: #0aad12;
+	padding-bottom: 10px;
+	margin-bottom: 40px;
+	font-size: 13pt;
+}
+
+#contenedor td {
+	padding: 3px 30px 3px 0;
+}
+
+#contenedor .icono_titulo {
+	float: left;
+	margin-right: 10px;
+}
+
+#contenedor table span {
+	color: #0aad12;
+	font-weight: bold;
+}
+
+#contenedor .item {
+	float: left;
+	clear: both;
+	margin-bottom: 10px;
+}
+
+#contenedor .cifra {
+	background-color: #0aad12;
+	/*padding: 10px;*/
+        padding: 10px;
+	border-radius: 25px;
+	color: #FFF;
+	width: 25px;
+	height: 25px;
+	display: block;
+/*	font-size: 14pt;*/
+	font-size: 10pt;
+	text-align: center;
+	float: left;
+}
+
+#contenedor p {
+	float: left;
+	margin-left: 10px;
+	font-size: 11pt;
+	padding: 0;
+	margin-top: 10px;
+}
+
+#contenedor #principal p, #contenedor #cuarto p {
+	max-width: 230px;
+}
+
+#contenedor #segundo {
+	width: 640px;
+	height: 640px;
+	padding: 30px;
+	float: left;
+}
+
+#contenedor #segundo #icono {
+	display: block;
+	float: left;
+}
+
+#contenedor #segundo #detalles {
+	display: block;
+	float: left;
+	margin-left: 20px;
+}
+
+#contenedor #segundo #caja_interna {
+	float: left;
+	display: block;
+	width: 640px;
+	margin-top: 30px;
+}
+
+#contenedor #tercero {
+	width: 640px;
+	height: 700px;
+	padding: 30px;
+	float: left;
+}
+
+#contenedor #tercero .item p {
+	width: 550px;
+}
+
+#contenedor #tercero .grafica {
+	float: left;
+	width: 300px;
+	margin-right: 10px;
+	background-color: white;
+	display: block;
+}
+
+#contenedor #tercero .grafica h3{
+	margin-bottom: 0;
+	width: 250px;
+}
+
+#contenedor #tercero .grafica .item  {
+	margin: 0;
+}
+
+#contenedor #tercero .grafica .item span {
+	border-radius: 20px;
+	height: 20px;
+	width: auto;
+	padding: 5px 10px 10px 10px;
+	margin: 0;
+}
+
+#contenedor #tercero .grafica .item p {
+	width: 200px;
+	font-size: 12pt;
+}
+
+#contenedor #cuarto {
+	width: 290px;
+	height: 700px;
+	float: left;
+	padding: 30px;
+}
+

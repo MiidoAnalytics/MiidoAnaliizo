@@ -1,0 +1,39 @@
+Applications Memory Usage (kB):
+Uptime: 462135 Realtime: 462135
+
+** MEMINFO in pid 6826 [com.analiizoUC.analiizoUC] **
+                   Pss  Private  Private  Swapped     Heap     Heap     Heap
+                 Total    Dirty    Clean    Dirty     Size    Alloc     Free
+                ------   ------   ------   ------   ------   ------   ------
+  Native Heap    13931    13912        0     1552    16556    16232      323
+  Dalvik Heap     8687     8604        0     2492    15590    12033     3557
+ Dalvik Other      564      564        0        0                           
+        Stack      212      212        0        0                           
+       Cursor       36       36        0        0                           
+    Other dev     7405     7400        4        0                           
+     .so mmap     1251      336      168     1324                           
+    .apk mmap      131        0       28        0                           
+    .ttf mmap       36        0        4        0                           
+    .dex mmap     2428        0     2428        0                           
+    code mmap     2666        0     1384        0                           
+   image mmap     7255     7004       72        0                           
+   Other mmap       47        4       16        0                           
+     Graphics    10376    10376        0        0                           
+      Unknown      144      144        0       48                           
+        TOTAL    55169    48592     4104     5416    32146    28265     3880
+ 
+ Objects
+               Views:      325         ViewRootImpl:        6
+         AppContexts:        9           Activities:        7
+              Assets:        2        AssetManagers:        2
+       Local Binders:       26        Proxy Binders:       28
+    Death Recipients:        0
+     OpenSSL Sockets:        0
+ 
+ SQL
+         MEMORY_USED:        0
+  PAGECACHE_OVERFLOW:      144          MALLOC_SIZE:        0
+ 
+ DATABASES
+      pgsz     dbsz   Lookaside(b)          cache  Dbname
+         4       52             16         0/16/1  /data/data/com.analiizoUC.analiizoUC/databases/ANALIIZO_DB

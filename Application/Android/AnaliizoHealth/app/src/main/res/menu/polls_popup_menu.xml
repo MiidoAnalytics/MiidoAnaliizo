@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android">
+
+    <item
+        android:id="@+id/menuFillPoll"
+        android:title="@string/polls_popupmenu_menuFillPoll_title" />
+
+    <item
+        android:id="@+id/menuSendPoll"
+        android:title="@string/polls_popupmenu_menuSendPoll_title" />
+
+    <item android:id="@+id/menuRecordPoll"
+        android:title="@string/polls_popupmenu_menuRecordPoll_title"/>
+
+    <item android:id="@+id/menuViewPoll"
+        android:title="@string/polls_popupmenu_menuViewPoll_title"/>
+
+    <item android:id="@+id/menuImageResources"
+        android:title="@string/polls_popupmenu_menuImageResources_title"
+        android:visible="false"/>
+
+</menu>

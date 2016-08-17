@@ -1,0 +1,63 @@
+.opcionesRadioClass {
+    max-width: 2em;
+    float: left;
+}
+
+.tabs {
+    position: relative;
+    min-height: 350px;
+    clear: both;
+    margin: 25px 0;
+    height: 67vh;
+}
+.tab {
+    float: left;
+}
+.tab label {
+    background: #eee;
+    padding: 10px;
+    border: 1px solid #ccc;
+    margin-left: -1px;
+    position: relative;
+    left: 1px;
+    color: black;
+    font-weight: bold;
+}
+.tab input[type=radio] {
+    display: none;
+}
+.content {
+    position: absolute;
+    top: 28px;
+    left: 0;
+    background: white;
+    right: 0;
+    bottom: 0;
+    padding: 20px;
+    border: 1px solid #ccc;
+    overflow: hidden;
+    overflow-y: auto;
+    text-align: justify;
+}
+.content >
+ * {
+    display:none; 
+}
+.tab input[type=radio]:checked ~ label {
+    background: #0aae13;
+    border-bottom: 1px solid white;
+    z-index: 2;
+    color: white;
+    font-weight: bold;
+}
+.tab input[type=radio]:checked ~ label ~ .content {
+    z-index: 1;
+}
+.tab input[type=radio]:checked ~ label ~ .content >
+ * {
+    display: block;
+}
+img{
+    margin:5px 10px 0 5px;
+    float:left;
+}

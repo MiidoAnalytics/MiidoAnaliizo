@@ -1,0 +1,32 @@
+body {
+    font-size: 35pt;
+}
+
+#formulario input {
+  height: 100px;
+}
+
+#formulario select {
+    height: 100px;
+}
+
+h1, h2, h3 {
+  font-size: 35pt !important;
+}
+
+#formulario h2 {
+    padding: 40px 0 !important;
+}
+
+.boton {
+    height: 100px !important;
+    width: auto !important;
+    padding-right: 50px !important;
+    padding-left: 50px !important;
+}
+
+#formulario span {
+  margin-top: -100px !important;
+  padding-left: 120px !important;
+  /*height: 100px !important;*/
+}

@@ -1,0 +1,3 @@
+[01-Oct-2015 08:44:07 America/Bogota] PHP Fatal error:  Call to a member function fetch_array() on null in /home/miido/public_html/analiizo/manager/lib/db/ajax.php on line 126
+[05-Oct-2015 15:27:08 America/Bogota] PHP Fatal error:  Call to a member function fetch_array() on null in /home/miido/public_html/analiizo/manager.beta/lib/db/ajax.php on line 126
+[05-Oct-2015 15:27:21 America/Bogota] PHP Fatal error:  Call to a member function fetch_array() on null in /home/miido/public_html/analiizo/manager.beta/lib/db/ajax.php on line 126
