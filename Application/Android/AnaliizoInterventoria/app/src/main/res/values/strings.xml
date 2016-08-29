@@ -1,0 +1,182 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <!-- Application -->
+    <string name="app_window_title">Analiizo By Miido</string>
+    <string name="app_name">Analiizo</string>
+    <string name="app_alias">Analiizo</string>
+
+    <!-- Dialog -->
+    <string name="app_confirm_dialog_title">Confirmación</string>
+    <string name="app_alert_dialog_title">Información</string>
+    <string name="app_progress_dialog_title">Espere un momento ...</string>
+    <string name="app_progress_dialog_upload_resource_message">Cargando recursos</string>
+    <string name="app_confirm_dialog_upload_resource_message">¿Desea sincronizar los recursos?</string>
+    <string name="app_confirm_dialog_activateGps_title">Activar GPS</string>
+    <string name="app_confirm_dialog_activateGps_message">Esta aplicación requiere obtener su posición\n¿desea activar su dispositivo GPS?</string>
+    <string name="app_connection_refused_title">Error de conexión</string>
+    <string name="app_connection_refused_message">No se ha podido establecer conexión con el servidor</string>
+    <string name="app_disconnected_title">Verificar conexión</string>
+    <string name="app_disconnected_message">Esta operación requiere una conexión a internet./n¿Desea ver sus preferencias de red?</string>
+    <string name="app_confirm_quit_message">¿Está seguro que desea salir de la aplicación?</string>
+    <string name="app_alert_dialog_testVersion_message">Esta acción no se puede ejecutar. versión de prueba</string>
+    <!-- /Dialog -->
+
+    <!-- Button -->
+    <string name="app_affirmative_button_text">Si</string>
+    <string name="app_negative_button_text">No</string>
+    <string name="app_accept_button_text">Aceptar</string>
+    <string name="app_cancel_button_text">Cancelar</string>
+    <!-- /Button -->
+
+    <!-- messages -->
+    <string name="app_socket_connect_message_i">Conexión satisfactoria</string>
+    <string name="app_socket_connect_message_e">Error de conexión</string>
+    <string name="app_store_data_success">Información guardada satisfactoriamente</string>
+    <string name="app_store_data_success_confirm">Información guardada con exito.\n¿Desea salir de la encuesta?</string>
+    <string name="app_update_data_success">Información actualizada satisfactoriamente</string>
+    <string name="app_update_data_success_confirm">Información actualizada con exito.\n¿Desea salir de la encuesta?</string>
+    <string name="app_store_data_failed">No se pudieron almacenar los registros</string>
+    <string name="app_update_data_failed">No se pudieron actualizar los registros</string>
+    <!-- /messages -->
+    <!-- /Application -->
+
+    <!-- LoginActivity -->
+    <!-- layout -->
+    <string name="login_messageTextView_text">Acceso a encuestadores</string>
+    <string name="login_userEditText_hint">Usuario</string>
+    <string name="login_passwordEditText_hint">Password</string>
+    <string name="login_loginButton_text">Iniciar Sesión</string>
+    <!-- /layout -->
+
+    <!-- messages -->
+    <string name="login_socket_update_users_service_i">Usuarios actualizados</string>
+    <string name="login_authentication_message_e">Error inesperado de autenticación</string>
+    <string name="login_unauthorized_device_message_i">Usted no está autorizado para ingresar en este dispositivo</string>
+    <string name="login_bad_authentication_message_i">Usuario y/o contraseña inválidos</string>
+    <string name="login_empty_users_message_i">No se encontraron usuarios</string>
+    <!-- /messages -->
+
+    <!-- Dialog -->
+    <string name="login_progress_dialog_authenticate_message">Autenticando usuario...</string>
+    <!-- /Dialog -->
+
+    <!-- /LoginActivity -->
+
+    <!-- ProjectsActivity -->
+    <!-- ToolBar -->
+    <string name="projects_toolbar_title">Proyectos</string>
+    <string name="projects_toolbar_menuSearch_hint">Busqueda...</string>
+    <string name="projects_toolbar_menuSearch_title">Buscar</string>
+    <string name="projects_toolbar_menuQuit_title">Salir</string>
+    <!-- /ToolBar -->
+
+    <!-- Layout -->
+    <string name="projects_updateButton_contentDescription">Actualizar</string>
+    <!-- /Layout -->
+    <!-- /ProjectsActivity -->
+
+    <!-- PollsActivity -->
+    <!-- Layout -->
+    <string name="polls_updateButton_contentDescription">Actualizar</string>
+    <!-- /Layout -->
+
+    <!-- PopupMenu -->
+    <string name="polls_popupmenu_menuFillPoll_title">Llenar informe</string>
+    <string name="polls_popupmenu_menuSendPoll_title">Enviar informe</string>
+    <string name="polls_popupmenu_menuRecordPoll_title">Historial</string>
+    <string name="polls_popupmenu_menuViewPoll_title">Ver informe</string>
+    <string name="polls_popupmenu_menuImageResources_title">Registros fotográficos</string>
+    <!-- /PopupMenu -->
+
+    <!-- Dialog -->
+    <string name="polls_progress_dialog_sendpolls_message">Enviando datos al servidor...</string>
+    <string name="polls_confirm_dialog_sendpolls_message">¿Desea eviar los informes a el servidor de Analiizo?\nEsta operación es irreversible</string>
+    <!-- /Dialog -->
+
+    <!-- Messages -->
+    <string name="polls_synchronize_error_message">Ocurrio un error al tratar de sincronizar las encuestas</string>
+    <string name="polls_empty_info_message">No hay encuestas deisponibles para enviar</string>
+    <string name="polls_synchronize_success_message">Encuestas sincronizadas con exito</string>
+    <string name="polls_empty_saved_info_message">Aún no hay encuestas guardadas</string>
+    <string name="polls_filled_out_info_message">Este informe ya ha sido diligenciado</string>
+    <!-- /Messages -->
+
+    <!-- ToolBar -->
+    <string name="polls_toolbar_title">Informes</string>
+    <string name="polls_toolbar_subtitle">Semanales</string>
+    <string name="polls_toolbar_menuSearch_hint">Busqueda...</string>
+    <!-- /ToolBar -->
+    <!-- /PollsActivity -->
+
+    <!-- ResumeActivity -->
+    <plurals name="resume_questions_lenghts">
+        <item quantity="one">Una pregunta</item>
+        <item quantity="other">(%d) preguntas</item>
+    </plurals>
+    <!-- /ResumeActivity -->
+
+    <!-- FormActivity -->
+    <!-- Messages -->
+    <string name="form_fields_validate_error_message">Verifique los campos resaltados para poder continuar</string>
+    <!-- /Messages -->
+    <!-- /FormActivity -->
+
+    <string name="user">Usuario</string>
+    <string name="password">Contraseña</string>
+    <string name="login">Iniciar</string>
+    <string name="reusers">Refrescar Usuarios</string>
+    <string name="title_activity_main_menu">main_menu</string>
+    <string name="action_settings">Ajustes</string>
+    <string name="action_statistics">Estadisticas</string>
+    <string name="action_quit">Salir</string>
+    <string name="title_activity_master">master</string>
+
+    <string name="title_activity_settings">settings</string>
+    <string name="title_activity_find_search">find_search</string>
+    <string name="title_activity_synchronizer">synchronizer</string>
+
+    <string name="newPoll">NUEVA ENCUESTA</string>
+    <string name="quit">SALIR</string>
+    <string name="assessment">ESTADISTICAS</string>
+    <string name="settings">AJUSTES</string>
+    <string name="updateSuscribers">ACTUALIZAR AFILIADOS</string>
+    <string name="sendPolls">ENVIAR ENUESTAS</string>
+    <string name="updateApp">ACTUALIZAR APLICACION</string>
+    <string name="updatePolls">ACTUALIZAR ENCUESTAS</string>
+    <string name="back">REGRESAR</string>
+    <string name="exit">SALIR</string>
+    <string name="title_activity_statistics">statistics</string>
+
+    <string name="hello_world">Hello world!</string>
+
+    <string name="LightOff">Apagar</string>
+    <string name="LightOn">Encender</string>
+    <string name="Light">Led</string>
+    <string name="Back">Atras</string>
+
+    <string-array name="gender">
+        <item>Sexo</item>
+        <item>Masculino</item>
+        <item>Femenino</item>
+    </string-array>
+
+    <string-array name="bloodgroup">
+        <item>Grupo sanguineo</item>
+        <item>O</item>
+        <item>A</item>
+        <item>AB</item>
+        <item>B</item>
+    </string-array>
+
+    <string-array name="RH">
+        <item>RH</item>
+        <item>+</item>
+        <item>-</item>
+    </string-array>
+
+    <string name="title_activity_scan_person">ScanPersonActivity</string>
+    <string name="title_activity_person_data_basic">PersonDataBasicActivity</string>
+    <string name="title_activity_socket">Socket</string>
+
+</resources>

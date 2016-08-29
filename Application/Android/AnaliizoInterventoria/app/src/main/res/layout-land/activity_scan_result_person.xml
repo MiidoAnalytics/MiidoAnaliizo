@@ -1,0 +1,197 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:gravity="center"
+    android:orientation="vertical">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:orientation="horizontal">
+
+        <RelativeLayout
+            android:layout_width="wrap_content"
+            android:layout_height="match_parent">
+
+            <LinearLayout
+                android:id="@+id/frameLayout"
+                android:layout_width="wrap_content"
+                android:layout_height="match_parent"
+                android:layout_marginLeft="10dp"
+                android:layout_marginRight="10dp"
+                android:layout_marginTop="10dp"
+                android:layout_marginBottom="10dp"
+                android:background="#FFFFFF"
+                android:orientation="vertical">
+
+
+                <ImageView
+                    android:id="@+id/personImageView"
+                    android:layout_width="130dp"
+                    android:layout_height="130dp"
+                    android:contentDescription="rHeader"
+                    android:src="@drawable/user" />
+
+
+                <LinearLayout
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+
+                    android:layout_alignBottom="@+id/frameLayout"
+                    android:layout_alignParentRight="true"
+                    android:orientation="horizontal">
+
+                    <ImageButton
+                        android:id="@+id/scanButton"
+                        android:layout_width="70dp"
+                        android:layout_height="70dp"
+                        android:background="@drawable/circle"
+                        android:src="@drawable/ic_code_scan" />
+
+                    <ImageButton
+                        android:id="@+id/photoButton"
+                        android:layout_width="70dp"
+                        android:layout_height="70dp"
+                        android:background="@drawable/circle"
+                        android:src="@drawable/ic_camera" />
+
+
+                </LinearLayout>
+
+                <ImageView
+                    android:id="@+id/imageView"
+                    android:layout_width="130dp"
+                    android:layout_height="100dp"
+                    android:contentDescription="lHeader"
+                    android:src="@drawable/analiizo_l_header" />
+
+            </LinearLayout>
+
+
+        </RelativeLayout>
+
+        <RelativeLayout
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content">
+
+            <ScrollView
+                android:id="@+id/scrollView"
+                android:layout_width="match_parent"
+                android:layout_height="match_parent">
+
+                <LinearLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent"
+                    android:layout_marginLeft="10dp"
+                    android:layout_marginRight="10dp"
+                    android:orientation="vertical"
+                    android:padding="16dp">
+
+                    <TextView
+                        android:id="@+id/textView"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:text="CC."
+                        android:textAppearance="?android:attr/textAppearanceMedium" />
+
+                    <EditText
+                        android:id="@+id/ccEditTex"
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:drawableLeft="@drawable/ic_user_identification"
+                        android:ems="10"
+                        android:hint="Cédula de ciudadanía"
+                        android:inputType="number" />
+
+                    <TextView
+                        android:id="@+id/textView2"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:text="Nombres."
+                        android:textAppearance="?android:attr/textAppearanceMedium" />
+
+                    <EditText
+                        android:id="@+id/firstName1EditText"
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:drawableLeft="@drawable/ic_user_identification"
+                        android:ems="10"
+                        android:hint="Primer Nombre"
+                        android:inputType="textPersonName" />
+
+                    <EditText
+                        android:id="@+id/firstName2EditText"
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:drawableLeft="@drawable/ic_user_identification"
+                        android:ems="10"
+                        android:hint="Segundo Nombre"
+                        android:inputType="textPersonName" />
+
+                    <EditText
+                        android:id="@+id/lastName1EditText"
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:drawableLeft="@drawable/ic_user_identification"
+                        android:ems="10"
+                        android:hint="Primer Apellido"
+                        android:inputType="textPersonName" />
+
+                    <EditText
+                        android:id="@+id/lastName2EditText"
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:drawableLeft="@drawable/ic_user_identification"
+                        android:ems="10"
+                        android:hint="Segundo Apellido"
+                        android:inputType="textPersonName" />
+
+                    <EditText
+                        android:id="@+id/birthDateEditText"
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:drawableLeft="@drawable/ic_date"
+                        android:editable="false"
+                        android:ems="10"
+                        android:hint="Fecha de nacimiento"
+                        android:inputType="date" />
+
+                    <Spinner
+                        android:id="@+id/genderSpinner"
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:layout_marginBottom="5dp"
+                        android:drawableLeft="@drawable/ic_user_identification"
+                        android:entries="@array/gender" />
+
+                    <Spinner
+                        android:id="@+id/bloodGroupSpinner"
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:layout_marginBottom="5dp"
+                        android:entries="@array/bloodgroup" />
+
+                    <Spinner
+                        android:id="@+id/rhSpinner"
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:entries="@array/RH" />
+
+                </LinearLayout>
+            </ScrollView>
+
+            <ImageButton
+                android:id="@+id/initPollButton"
+                android:layout_width="70dp"
+                android:layout_height="70dp"
+                android:layout_alignBottom="@+id/scrollView"
+                android:layout_alignParentRight="true"
+                android:background="@drawable/circle"
+                android:src="@drawable/ic_send" />
+
+        </RelativeLayout>
+
+    </LinearLayout>
+
+</LinearLayout>

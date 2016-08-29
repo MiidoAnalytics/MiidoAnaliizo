@@ -1,0 +1,71 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<navigationModel
+  ns = "http://schemas.android.com?import=com.android.tools.idea.editors.navigation.model.*">
+  <locations  
+    class = "java.util.ArrayList">
+    <statePointEntry>
+      <state      
+        class = "com.android.tools.idea.editors.navigation.model.ActivityState"      
+        className = "com.miido.analiizoOBRAS.Master"/>
+      <point      
+        x = "2728"      
+        y = "140"/>
+    </statePointEntry>
+    <statePointEntry>
+      <state      
+        class = "com.android.tools.idea.editors.navigation.model.ActivityState"      
+        className = "com.miido.analiizoOBRAS.PollsActivity"/>
+      <point      
+        x = "1896"      
+        y = "88"/>
+    </statePointEntry>
+    <statePointEntry>
+      <state      
+        class = "com.android.tools.idea.editors.navigation.model.ActivityState"      
+        className = "com.miido.analiizoOBRAS.LoginActivity"/>
+      <point      
+        x = "36"      
+        y = "196"/>
+    </statePointEntry>
+    <statePointEntry>
+      <state      
+        class = "com.android.tools.idea.editors.navigation.model.ActivityState"      
+        className = "com.miido.analiizoOBRAS.ScanPersonActivity"/>
+      <point      
+        x = "2164"      
+        y = "660"/>
+    </statePointEntry>
+    <statePointEntry>
+      <state      
+        class = "com.android.tools.idea.editors.navigation.model.ActivityState"      
+        className = "com.miido.analiizoOBRAS.Main"/>
+      <point      
+        x = "988"      
+        y = "0"/>
+    </statePointEntry>
+    <statePointEntry>
+      <state      
+        class = "com.android.tools.idea.editors.navigation.model.ActivityState"      
+        className = "com.miido.analiizoOBRAS.PollRecordActivity"/>
+      <point      
+        x = "1040"      
+        y = "540"/>
+    </statePointEntry>
+    <statePointEntry>
+      <state      
+        class = "com.android.tools.idea.editors.navigation.model.ActivityState"      
+        className = "com.miido.analiizoOBRAS.Statistics"/>
+      <point      
+        x = "80"      
+        y = "332"/>
+    </statePointEntry>
+    <statePointEntry>
+      <state      
+        class = "com.android.tools.idea.editors.navigation.model.ActivityState"      
+        className = "com.miido.analiizoOBRAS.PersonDataBasicActivity"/>
+      <point      
+        x = "1440"      
+        y = "160"/>
+    </statePointEntry>
+  </locations>
+</navigationModel>
